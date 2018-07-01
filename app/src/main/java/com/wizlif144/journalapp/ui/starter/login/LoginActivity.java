@@ -147,5 +147,6 @@ public class LoginActivity extends BaseActivity<ActivityLoginBinding, LoginPrese
     @Override
     public void onError(String error) {
         Toast.makeText(this,error,Toast.LENGTH_LONG).show();
+
     }
 }
