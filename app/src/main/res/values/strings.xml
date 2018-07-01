@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Journal App</string>
+    <string name="g_o_o_g_l_e">G O O G L E</string>
+    <string name="s_i_g_n_i_n">S I G N I N</string>
+    <string name="password">PASSWORD</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+
+    <string name="mandatory_field">Mandatory field</string>
+    <string name="invalid_email">Please provide a valid email address</string>
+    <string name="passwords_not_match">Passwords do not match</string>
+    <string name="email">EMAIL</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="new_user">New user?</string>
+    <string name="androidbar_scrolling_view_behavior"><![CDATA[<string name=\"androidbar_scrolling_view_behavior\">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>]]></string>
+    <string name="save">SAVE</string>
+    <string name="long_lorem_ipsum">Duis tellus metus, elementum a lectus id, aliquet interdum mauris. Nam bibendum efficitur sollicitudin. Proin eleifend libero velit, nec fringilla dolor finibus quis. nMorbi eu libero pellentesque, rutrum metus quis, blandit est. Fusce bibendum accumsan nisi vulputate feugiat. In fermentum laoreet euismod. Praesent sem nisl, facilisis eget odio at, rhoncus scelerisque ipsum. Nulla orci dui, dignissim a risus ut, lobortis porttitor velit. \n\nNulla id lectus metus. Maecenas a lorem in odio auctor facilisis non vitae nunc. Sed malesuada volutpat massa. Praesent sit amet lacinia augue, mollis tempor dolor.</string>
+    <string name="edit">Edit</string>
+</resources>

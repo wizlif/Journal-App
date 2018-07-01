@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="EditText.Grey" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--<item name="colorControlNormal">@color/grey_5</item>-->
+        <!--<item name="colorControlActivated">@color/amber_500</item>-->
+        <!--<item name="colorControlHighlight">@color/amber_500</item>-->
+    </style>
+
+    <style name="RippleStyleWhite">
+        <item name="mrl_rippleColor">#80ffffff</item>
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+        <item name="mrl_rippleDelayClick">true</item>
+    </style>
+
+    <style name="RippleStyleBlack">
+        <item name="mrl_rippleColor">#8096989a</item>
+    </style>
+
+    <style name="RippleStyleDark">
+        <item name="mrl_rippleColor">#80000000</item>
+    </style>
+
+    <style name="FullWidthEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="FullWidthEditText.Title">
+        <item name="android:textSize">@dimen/abc_text_size_title_material</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="FullWidthEditText.Body">
+        <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/spacing_large</item>
+        <item name="android:src">@drawable/ic_add_a_photo</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">6dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+
+</resources>

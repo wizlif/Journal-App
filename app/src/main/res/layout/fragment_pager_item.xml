@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+
+        <variable
+            name="presenter"
+            type="com.wizlif144.journalapp.ui.main.MainActivityPresenter" />
+    </data>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.wajahatkarim3.easyflipview.EasyFlipView
+        android:id="@+id/flip_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:flipOnTouch="false"
+        app:flipEnabled="true"
+        app:flipDuration="400"
+        app:flipFrom="right"
+        app:flipType="horizontal"
+        >
+
+        <!-- Back Layout Goes Here -->
+        <include
+            android:id="@+id/inc_card_calendar"
+            layout="@layout/item_month_calendar"
+            app:presenter="@{presenter}"/>
+
+        <!-- Front Layout Goes Here -->
+        <include
+            android:id="@+id/inc_card_month"
+            layout="@layout/item_card_month"
+            app:presenter="@{presenter}"/>
+
+    </com.wajahatkarim3.easyflipview.EasyFlipView>
+</FrameLayout>
+</layout>
